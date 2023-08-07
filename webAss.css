@@ -1,0 +1,117 @@
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Responsive design using flexbox */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 1rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+/* CSS for Image Slider */
+.photo-slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.photo-slider img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* CSS for Hover Effect */
+.photo-gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* CSS for Fade-in Effect */
+#achievements li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#achievements li.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
