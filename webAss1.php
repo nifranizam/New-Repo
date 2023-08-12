@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoutite Place Srilanka - Portfolio</title>
+    <link rel="webAss" href="webAss.css">
+    <!-- Add your CSS link here (internal or external) -->
+</head>
+<body>
+
+    <script src="webAss.js"></script> 
+    <? php
+     include("webAss.php")
+     ?>
+    <header>
+        <!-- Header content, including logo and navigation links -->
+        <h1>Beauty Of Srilanka</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main content -->
+        <section id="about">
+            <h2>About Srilanka</h2>
+            <p>
+                Sri Lanka is an island nation located in the Indian Ocean, just off the southeastern coast of India. Sri Lanka has a population of about 20 million people. The island is rich in natural resources, and has a diverse economy based on agriculture, mining, fishing, manufacturing, and tourism. On becoming an independent nation in 1948 Sri Lanka seemed to be headed for a future as a stable and prosperous democracy. 
+                
+            </p>
+        </section>
+
+        <section id="photos">
+            <h2>Beautiful Clips Of Srilanka</h2>
+            <!-- Showcase your photography work here -->
+            <div class="photo-gallery">
+               <img src="iStock-531216313.jpg" class="iStock-531216313">
+               <img src="best-places-to-visit-in-sri-lanka-backpacker-travel-sigiriya-kandy-dambulla-elephants.jpg" class="best-places-to-visit-in-sri-lanka-backpacker-travel-sigiriya-kandy-dambulla-elephants">
+               <img src="must_visit_places_sri_lanka_sigiriya.jpg" class="must_visit_places_sri_lanka_sigiriya">
+               <img src="Shutterstock_1426128080.jpg" class="Shutterstock_1426128080">
+               <img src="GALLE.jpg" class="GALLE">
+     
+              <div class="contact-form">
+               <h2>Contact Me</h2>
+        <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+              </div>
+
+                
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements In Tourist Industry Of Srilanka</h2>
+            <!-- Showcase your achievements related to the theme -->
+            <ul>
+                <li>Number of tourists increased.</li>
+                <li>Development in economy</li>
+                <!-- Add more list items as needed -->
+            </ul>
+            <button id="showMoreButton">Show More</button>
+            <div id="additionalInfo" style="display: none;">
+        </section>
+    </main>
+
+    <aside>
+        <!-- Sidebar content with related links/resources -->
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://medium.com/@tharikasulakshi/feel-the-natural-beauty-of-sri-lanka-20bf60ebf1c6">Link 1</a></li>
+            <li><a href="https://forwardtravel.com.au/sri-lanka/">Link 2</a></li>
+            <!-- Add more related links -->
+        </ul>
+    </aside>
+
+    <footer>
+        <!-- Footer content with social media icons and contact information -->
+        <div class="social-media-icons">
+            <img src="insta.png" class="insta">
+            <img src="linkdn.png" class="linkdn">
+            <img src="twttr.png" class="twttr">
+            <img src="utube.png" class="utube">
+
+            <!-- Social media icons go here -->
+        </div>
+        <div class="contact-info">
+            <!-- Contact information goes here -->
+        </div>
+    </footer>
+</body>
+</html>
